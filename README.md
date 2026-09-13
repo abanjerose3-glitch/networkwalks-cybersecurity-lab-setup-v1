@@ -1,4 +1,4 @@
-🔐 Cybersecurity Lab Environment Setup
+Cybersecurity Lab Environment Setup
 Networkwalks Cybersecurity Internship — Week 1 | Project Module 1
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-7.x-blue)
@@ -7,7 +7,7 @@ Networkwalks Cybersecurity Internship — Week 1 | Project Module 1
 ![Android](https://img.shields.io/badge/Android-9.0%20R2-green)
 ![Network](https://img.shields.io/badge/Network-NATNetwork-orange)
 ---
-📌 Project Overview
+Project Overview
 This project documents the setup of a controlled cybersecurity testing lab environment using Oracle VirtualBox.
 The lab was configured for cybersecurity and ethical hacking practice, with Kali Linux as the primary security testing workstation and additional Windows 10 and Android 9.0 R2 virtual machines for optional VM-to-VM connectivity testing.
 The lab network uses a private `10.0.0.0/24` NAT Network.
@@ -58,7 +58,7 @@ Lab Architecture
    Security VM          Optional VM          Optional VM
 ```
 ---
-⚙️ Lab Configuration
+Lab Configuration
 Component	Configuration
 Virtualization	Oracle VirtualBox
 Network Type	NAT Network
@@ -74,7 +74,7 @@ Gateway: `10.0.0.1`
 DNS: `8.8.8.8`
 Internet connectivity: Verified
 ---
-🛠️ Lab Setup Procedure
+Lab Setup Procedure
 Step 1 — Download & Install 7-Zip
 Download and install 7-Zip for extracting virtual machine archives.
 Step 2 — Download & Install VirtualBox
@@ -251,3 +251,21 @@ Jerose N. Aban
 Cybersecurity Professional B083F
 Networkwalks
 ---
+📁 Evidence Structure
+```text
+evidence/
+└── screenshots/
+    ├── 01-kali-to-android-pass.png
+    ├── 02-android-to-kali-pass.png
+    ├── 03-windows-to-kali-pass.png
+    ├── 04-windows-to-android-pass.png
+    ├── 05-kali-to-windows-pass.png
+    ├── 06-android-to-windows-pass.png
+    ├── 07-kali-network-configuration.png
+    ├── 08-kali-gateway-verification.png
+    ├── 09-kali-internet-connectivity.png
+    ├── 10-kali-final-verification.png
+    └── 11-kali-snapshot-restore.png
+```
+---
+Week 1 Lab Setup — Completed ✅
